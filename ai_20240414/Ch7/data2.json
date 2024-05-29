@@ -1,0 +1,14 @@
+{
+  "pepole": [
+    {
+      "name": "Ken",
+      "score": 100,
+      "website": "ken.com.tw"
+    },
+    {
+      "name": "Vivin",
+      "score": 75,
+      "website": "vivin.com.tw"
+    }
+  ]
+}
