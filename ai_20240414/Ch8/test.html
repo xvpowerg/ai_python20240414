@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get Text Element Example</title>
+</head>
+<body>
+
+<p id="targetElement">這是一個目標元素的文本。</p>
+
+<button onclick="test1()">Test</button>
+
+<script>
+function test1(){
+    // 獲取ID為targetElement的元素
+var element = document.getElementById("targetElement");
+
+// 獲取該元素的文字內容
+var textContent = element.textContent;
+
+// 在控制台上顯示獲取的文本內容
+console.log(textContent);
+
+}
+</script>
+
+</body>
+</html>
